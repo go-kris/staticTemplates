@@ -1,0 +1,26 @@
+CSS
+
+/* COLORS
+
+	Dark Gray: #323E48
+	Blue: #004D71
+	Green: #93D500
+	Light Gray: #D9D8D6
+
+*/
+
+/* label color */
+.input-field label {
+    border-bottom: #ff0000 !important;
+}
+
+/* label focus color */
+
+.input-field input[type=text], .materialize-textarea:focus:not([readonly]) {
+ border-bottom: 1px solid #93D500 !important;
+ box-shadow: 0 1px 0 0 #93D500 !important;
+}
+
+.btn-large {
+	background-color: #D9D8D6;
+}
