@@ -1,9 +1,9 @@
 <html>
 <head>
 	
-<!-- Compiled and minified CSS -->
+	<!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="CSS/base.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -13,7 +13,7 @@
 	<div class="navbar-fixed">
 		<nav>
     		<div class="nav-wrapper center grey darken-2">
-     			<span>Packages</span>
+     			<span>Create Your Package(s)</span>
     		</div>
   		</nav>
   	</div>
@@ -21,184 +21,136 @@
 <!-- trying to add space via "section"-->
 <div class="section"></div>
 
+
+<!-- STEP 2 -->
+
+<div class="section"></div>
+
 <div class="container">
 	<div class="row">
 	    <form class="col s12">
-	     	
-	     	<!-- LOCATION SECTION-->
 
-	     	<div class="row center">
-	     		<div class="col s12">
-	     			<h1>Location</h1>
-	     		</div>
-	     	</div>
+	    	<div class="row">
+	    		<h5>Create a Package
+	    		</h5>
+	    	</div>
 
-	     	<div class="row center">	     	
-	     		<div class="col s6">
-				    <p>
-				      <label>
-				        <input class="with-gap" name="group1" type="radio"  />
-				        <span>Bay</span>
-				      </label>
-				    </p>
-				</div>
+	    	<div class="row">
+	    		<h4>Step 2 of 4
+	    		</h4>
+	    	</div>
 
-				<div class="col s6">
-				    <p>
-				      <label>
-				        <input class="with-gap" name="group1" type="radio"  />
-				        <span>Offshore</span>
-				      </label>
-				    </p>
+	    	<div class="row">
+				<div class="input-field col s12">
+				    <select class="icons">
+				      <option value="" disabled selected>Choose your location</option>
+				      <option value="1">Bay</option>
+				      <option value="2">Offshore</option>
+				    </select>
+				    <label>Location</label>
 				</div>
 			</div>
 
-	     	<!-- DURATION SECTION-->
-
-	     	<div class="row center">
-	     		<div class="col s12">
-	     			<h1>Duration</h1>
-	     		</div>
-	     	</div>
-
-	     	<div class="row center">	     	
-	     		<div class="col s6">
-				    <p>
-				      <label>
-				        <input class="with-gap" name="group2" type="radio"  />
-				        <span>Half Day</span>
-				      </label>
-				    </p>
-				</div>
-
-				<div class="col s6">
-				    <p>
-				      <label>
-				        <input class="with-gap" name="group2" type="radio"  />
-				        <span>Full Day</span>
-				      </label>
-				    </p>
-				</div>
-			</div>
-
-	     	<!-- TARGET FISH SECTION-->
-
-	     	<div class="row center">
-	     		<div class="col s12">
-	     			<h1>Target Fish</h1>
-	     		</div>
-	     	</div>
-
-	     	<div class="row">	     	
-				<div class="col s12 m6 l3"></div>
-	     		<div class="col s12 m6 l3">
-				    <p>
-				      <label>
-				        <input type="checkbox" class="filled-in" />
-				        <span>Bass</span>
-				      </label>
-				    </p>
-				</div>
-
-	     		<div class="col s12 m6 l3">
-				    <p>
-				      <label>
-				        <input type="checkbox" class="filled-in" />
-				        <span>Catfish</span>
-				      </label>
-				    </p>
-				</div>
-	     		<div class="col s12 m6 l3">
-				    <p>
-				      <label>
-				        <input type="checkbox" class="filled-in" />
-				        <span>Crappie</span>
-				      </label>
-				    </p>
-				</div>
-
-	     		<div class="col s12 m6 l3">
-				    <p>
-				      <label>
-				        <input type="checkbox" class="filled-in" />
-				        <span>Turtle</span>
-				      </label>
-				    </p>
-				</div>
-	     		<div class="col s12 m6 l3">
-				    <p>
-				      <label>
-				        <input type="checkbox" class="filled-in" />
-				        <span>Perch</span>
-				      </label>
-				    </p>
-				</div>
-
-	     		<div class="col s12 m6 l3">
-				    <p>
-				      <label>
-				        <input type="checkbox" class="filled-in" />
-				        <span>Snake</span>
-				      </label>
-				    </p>
-				</div>
-				<div class="col s12 m6 l3"></div>
-			</div>
-
-			<!-- BUTTONS -->
-
-		    <div class="row">
-		    	<div class="col s12">
-		        	<a class="waves-effect waves-light btn-large right"><i class="material-icons">arrow_forward</i></a>
-		        	<a class="waves-effect waves-light btn-large left"><i class="material-icons">arrow_backward</i></a>
-		        </div>
-		    </div>
-<!--
-
-			    <div class="input-field col s6">
-			        <input id="last_name" type="text" class="validate">
-			        <label for="last_name">Last Name</label>
-			    </div>
-			</div>
-			
-			<div class="row">
-			    <div class="input-field col s12">
-			        <input id="" type="email" class="validate">
-			        <label for="email">Email</label>
-			    </div>    
-			</div>
-			
-			<div class="row">
-			    <div class="input-field col s12">
-			        <input id="phone" type="text" class="validate">
-			        <label for="phone">Phone Number</label>
-			    </div>
-			</div>
-
-			<div class="row">
-			    <div class="input-field col s12">
-			        <input id="business" type="text" class="validate">
-			        <label for="business">Business Name</label>
-			    </div>
-			</div>
-			
 			<div class="row">
 				<div class="input-field col s12">
-            		<textarea id="business_description" class="materialize-textarea" data-length="240"></textarea>
-            		<label for="business_description">Business Description</label> 
-		        </div>
-		    </div>
+				    <select>
+				      <option value="" disabled selected>How long will you be out?</option>
+				      <option value="1">Half Day</option>
+				      <option value="2">Full Day</option>
+				    </select>
+				    <label>Duration</label>
+				</div>
+			</div>
+
+ 			<!-- will need to load relant fish options based on location selection -->
+			<div class="row">
+				<div class="input-field col s12">
+				    <select multiple>
+				      <option value="" disabled selected>Choose your target fish</option>
+				      <option value="1">Mackeral</option>
+				      <option value="2">Flounder</option>
+				      <option value="3">Grouper</option>
+				      <option value="4">Tuna</option>
+				      <option value="5">Sword Fish</option>
+				    </select>
+				    <label>Target Fish</label>
+				</div>
+			</div>
+
+			<div class="row">
+			    <div class="input-group col s12"> 
+			        <span class="input-group-addon">$ Price</span>
+			        <input type="number" value="0.00" min="1" max="10000" step="any" required="required" onchange="setTwoNumberDecimal"/>
+			    </div> 
+			</div>
+
+			<div class="row">
+			    <div class="input-group col s12"> 
+			        <span class="input-group-addon">$ Deposit</span>
+			        <input type="number" value="0.00" min="1" max="10000" step="any" required="required" onchange="setTwoNumberDecimal"/>
+			    </div> 
+			</div>
 
 		    <div class="row">
 		    	<div class="col s12">
 		        	<a class="waves-effect waves-light btn-large right"><i class="material-icons">arrow_forward</i></a>
 		        </div>
 		    </div>
--->
+
 	    </form>
 	</div>
 </div>
 
+<!-- STEP 2 cont'd -->
+
+  <div class="container">
+	<div class="row">
+	  <form class="col s12">
+
+		<div class="row">
+	    		<h5>Create a Package (cont'd)
+	    		</h5>
+	    	</div>
+
+	    	<div class="row">
+	    		<h4>Step 2 of 4
+	    		</h4>
+	    	</div>
+
+	    <div class="row">
+            <div class="col s12 m6">
+	            <div class="card">
+	              <div class="card-image">
+	                <img src="https://cdn.fishing.com/uploads/sites/2/2018/05/how-to-fish-560x560.jpg">
+	                <span class="card-title">Half Day / Bay / $495</span>
+	                <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add</i></a>
+	              </div>
+	              <div class="card-content">
+	                <p>Target Fish</p>
+	                	<br>
+	                	<div class="chip">Turtle</div>
+	                	<div class="chip">Bass</div>
+	                	<div class="chip">Shark</div>
+	              </div>
+	            </div>
+	        </div>
+
+    		<div class="col s12 m6">
+      			<div class="card-panel large blue-grey lighten-5 valign-wrapper">
+        		  	<div class="row">
+        		  		<div class="col s12 center-align">
+        		  			<a class="btn-floating btn-large waves-effect waves-light green">
+        		  				<i class="material-icons">add</i>
+        		  			</a>
+        		  		</div>
+        		  	</div>
+        			<div class="row"><p>Create another package</p></div>
+	      		</div>
+	    	</div>
+	    </div>
+	  </form>
+    </div>
+  </div>
 
 
 </body>

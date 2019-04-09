@@ -1,1 +1,118 @@
-guidePaymentPage.html
+<html>
+<head>
+	
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="CSS/base.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+</head>
+<body>
+
+	<div class="navbar-fixed">
+		<nav>
+    		<div class="nav-wrapper center grey darken-2">
+     			<span>EXPENSE LOG</span>
+    		</div>
+  		</nav>
+  	</div>
+
+	<div class="section"></div>
+
+<div class="row">
+	<div class="col s12">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Item Name</th>
+            <th>Category</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>11/12/19</td>
+            <td>Worms</td>
+            <td>Bait</td>
+            <td>$9.87</td>
+          </tr>
+          <tr>
+            <td>01/22/20</td>
+            <td>Rod</td>
+            <td>Equipment</td>
+            <td>$93.76</td>
+          </tr>
+          <tr>
+            <td>02/07/20</td>
+            <td>Ice</td>
+            <td>Misc</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+    <div class="center-align">
+		<a class="waves-effect waves-light green btn-floating btn-small modal-trigger" href="#modal1">
+      	  <i class="material-icons">add</i>
+        </a>
+    </div>
+
+<!--------- MODAL CONTENT --------->
+
+    <div id="modal1" class="modal" tabindex="0" style="z-index: 1003; display: none; opacity: 0; top: 4%; transform: scaleX(0.8) scaleY(0.8);">
+          <div class="modal-content">
+            <h4>Add an Expense</h4>
+			<!-- Input Date -->
+	    	<div class="row">
+				<div class="input-field col s12">
+					<input id="transaction_date" type="text" class="datepicker">
+			        <label for="transaction_date">Date of transaction</label>
+				</div>
+			</div>
+			<!-- Input Name -->
+	    	<div class="row">
+				<div class="input-field col s12">
+			        <input id="item_name" type="text" class="validate">
+			        <label for="item_name">Item Name</label>
+				</div>
+			</div>
+			<!-- Input Category -->
+	    	<div class="row">
+				<div class="input-field col s12">
+				    <select class="icons">
+				      <option value="" disabled selected>Choose a category</option>
+				      <option value="1">Bait</option>
+				      <option value="2">Tackle</option>
+				      <option value="3">Equipment</option>
+				      <option value="4">Fuel</option>
+				      <option value="5">Misc</option>
+				    </select>
+				    <label>Category</label>
+				</div>
+			</div>
+			<!-- Input Price -->
+			<div class="row">
+			    <div class="input-group col s12"> 
+			        <span class="input-group-addon">$ Price</span>
+			        <input type="number">
+			    </div> 
+			</div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-orange btn-flat">Cancel</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Done</a>
+          </div>
+        </div>
+  </div>
+</div>
+           
+</body>
